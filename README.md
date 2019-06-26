@@ -5,4 +5,6 @@ The other project is a JAX-RS client which runs in console mode. It waits for a 
 
 The client decorates the service call using resilience4j circuit breaker. The reported exceptions are shown in the console.
 
-Before executing the client, make sure you build the helloworld-rs project and deploy the generated war into a JAX-RS and CDI complaint server.
+Before executing the client, make sure you build the helloworld-rs project and deploy the generated war into a JAX-RS and CDI complaint server. The URLs to make the service call are declared in resteasy-jaxrs-client/pom.xml.
+
+
